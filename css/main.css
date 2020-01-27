@@ -97,6 +97,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/**** Base Styles ****/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+}
+
+p {
+  font-weight: 300;
+}
+
+/**** Layout ****/
+/**** Header ****/
+header {
+  background: #202020;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  max-width: 200px;
+}
+nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.google {
+
+}
+
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +313,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
