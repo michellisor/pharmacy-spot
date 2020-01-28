@@ -107,10 +107,29 @@ p {
   font-weight: 300;
 }
 
+h2 {
+  color: #006600;
+  margin: 5px;
+}
+
+a:hover {
+  color: #009900;
+}
+
 /**** Layout ****/
+
+body {
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-areas: "header header"
+                      "aside main"
+                      "footer footer";
+}
+
 /**** Header ****/
 header {
-  background: #202020;
+  grid-area: header;
+  background-image: linear-gradient(#606060, #101010);
   display: flex;
   justify-content: space-between;
 }
@@ -146,7 +165,56 @@ nav ul li a {
 
 }
 
+/**** Aside ****/
+aside {
+  grid-area: aside;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+}
 
+.nav-box {
+  background-image: linear-gradient(#F8F8F8, #B8B8B8);
+  border: 5px outset  #e2e2e2;
+  border-radius: 5px;
+  height: fit-content;
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+aside a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #202020;
+}
+
+/**** Main ****/
+#main {
+  grid-area: main;
+}
+
+.content-box {
+  background-image: linear-gradient(#F8F8F8, #B8B8B8);
+  border: 5px outset  #e2e2e2;
+  border-radius: 15px;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+}
+
+/**** Footer ****/
+footer {
+  grid-area: footer;
+    background-image: linear-gradient(#606060, #101010);
+}
+
+footer h4 {
+  color: white;
+  font-size: .75em;
+}
 
 /* ==========================================================================
    Helper classes
