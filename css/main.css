@@ -108,6 +108,7 @@ p {
 }
 
 h2 {
+  font-family: 'Fjalla One', sans-serif;
   color: #006600;
   margin: 5px;
 }
@@ -209,11 +210,29 @@ aside a {
 footer {
   grid-area: footer;
     background-image: linear-gradient(#606060, #101010);
+    text-align: center;
 }
 
 footer h4 {
+  font-weight: 300;
   color: white;
   font-size: .75em;
+}
+
+.menu {
+  margin: 1.5em;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0 15px;
+  border-right: 3px double #d9d9d9
+}
+
+.last {
+  border: none;
 }
 
 /* ==========================================================================
