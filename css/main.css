@@ -209,6 +209,22 @@ aside a {
   padding: 10px;
 }
 
+#intro {
+  background-image: url(../img/bottles.jpg);
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+}
+
+.text {
+  background: white;
+      opacity: .7;
+      margin: 80px 10px 30px 10px;
+      padding: 5px;
+      border-radius: 15px;
+  }
+}
+
 /**** Footer ****/
 footer {
   grid-area: footer;
