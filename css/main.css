@@ -108,7 +108,7 @@ p {
 }
 
 h2 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #006600;
   margin: 5px;
 }
@@ -156,6 +156,9 @@ nav ul li {
 }
 
 nav ul li a {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  text-transform: uppercase;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -225,6 +228,7 @@ footer h4 {
 
 footer a {
   text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   color: #ffffff;
   padding: 0 15px;
